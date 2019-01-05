@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eiffel"
+    android:orientation="vertical"
+    tools:context=".a1.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bộ Đề Thi Trắc Nghiệm Bằng Lái A1 "
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="(Chào Mừng Bạn Đến Với App Luyện Thi Trắc Nghiệm Bao Đậu Của Chúng tôi!)" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WELCOM TO APP!"
+        android:textColor="#fc0206"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

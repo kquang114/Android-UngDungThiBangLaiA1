@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bodethi"
+                    android:icon="@drawable/bp"
+                    android:title="Bộ đề thi" />
+                <item
+                    android:id="@+id/cacbienbao"
+                    android:icon="@drawable/bb"
+                    android:title="Các biển báo" />
+                <item
+                    android:id="@+id/meolambaithi"
+                    android:icon="@drawable/tick"
+                    android:title="Mẹo làm bài thi" />
+                <item
+                    android:id="@+id/video"
+                    android:icon="@drawable/video"
+                    android:title="Video hướng dẫn chạy xe" />
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Tìm kiếm câu hỏi" />
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/tick"
+                    android:title="Danh sách điểm" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

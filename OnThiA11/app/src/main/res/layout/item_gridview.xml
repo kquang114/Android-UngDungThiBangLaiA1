@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/pm_1"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="80dp"
+        android:layout_height="130dp"
+        android:contentDescription="Image"
+        app:srcCompat="@drawable/book"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvNumberExam"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="50dp"
+        android:text="Đề Số 1"
+        android:textColor="#0909df"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+</LinearLayout>
